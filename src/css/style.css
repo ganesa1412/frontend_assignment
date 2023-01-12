@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "sofia-bold";
+  src: url(../fonts/SofiaProBold.otf) format("opentype");
+}
+@font-face {
+  font-family: "sofia-light";
+  src: url(../fonts/SofiaProLight.otf) format("opentype");
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fafafa;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3498db;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2d80b7;
+}
+
+body, html {
+  font-family: "sofia-light" !important;
+  background-color: #ecf0f1;
+}
+
+h1, h2, h3, h4 {
+  font-family: "sofia-bold" !important;
+}
+
+.sidebar {
+  background-color: #fafafa;
+  min-height: 100vh;
+  box-shadow: 0px 0px 10px rgba(30, 30, 30, 0.3);
+}
+.sidebar ul {
+  margin: 0px;
+  padding: 0px;
+}
+.sidebar ul li {
+  list-style: none;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  color: #1e1e1e;
+  cursor: pointer;
+  transition-duration: 0.25s;
+}
+.sidebar ul li:hover, .sidebar ul li.active {
+  background-color: #3498db;
+  color: #fafafa;
+  box-shadow: 1px 1px 10px #ecf0f1;
+}
+
+.content {
+  background-image: url("../images/bg.jpg");
+  background-size: 100% 35%;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=style.css.map */
